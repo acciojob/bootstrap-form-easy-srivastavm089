@@ -4,3 +4,9 @@
     border-radius: 5px;
     color: white;
 }
+input:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 1px solid red;
+   
+}
