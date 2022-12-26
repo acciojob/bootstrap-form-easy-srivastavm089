@@ -9,29 +9,30 @@
 <body>
 	<!-- the entire body must be written by student -->
 	    <div class="main">
+       <div class="main">
     <div class="head"> <h1>Internship Form</h1>
     </div>
     <div class="form">
         <form method="post">
-            <label for="first-name-input" >First Name</label>
-            <input type="text" id="first-name-input" required>
-            <label for="Last">Last Name</label>
-            <input type="text" id=" last-name-input" required>
-            <label for="email">Email Address</label>
-            <input type="email" id="email-input" placeholder="xyz@abc.com" required><br><br>
-            <label for="college">Collage</label>
-            <input type="text" id="college-input" required>
-            <label for="year">Graduation Year</label>
+            <label for="first-name-input" class="form-label">First Name</label>
+            <input type="text" id="first-name-input" required class="form-control">
+            <label for="last-name-input" class="form-label">Last Name</label>
+            <input type="text" id="last-name-input" required  class="form-control">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email-input"  class="form-control" placeholder="xyz@abc.com" required><br><br>
+            <label for="college" class="form-label">Collage</label>
+            <input type="text" id="college-input" required  class="form-control">
+            <label for="year" class="form-label">Graduation Year</label>
             <select id="grad-year-select">
                 <option>2020</option>
                 <option>2021</option>
                 <option>2022</option>
                 <option>2023</option>
             </select>
-            <label for="rollnumber">Roll No.</label>
-            <input type="number" id="roll-no-input" required><br><br>
-            <input type="checkbox" id="box" required>
-            <label for="terms">Agree to term and conditions.</label><br><br>
+            <label for="rollnumber" class="form-label">Roll No.</label>
+            <input type="number" id="roll-no-input" required  class="form-control"><br><br>
+            <input type="checkbox" id="box" required  class="form-control">
+            <label for="terms" class="form-label">Agree to term and conditions.</label><br><br>
             <button type="submit" id=" conditions-checkbox" required>Submit form</button>
         </form>
     </div>
